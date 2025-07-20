@@ -177,20 +177,7 @@
 .saervice-area{
   font-size: x-large !important;
 }
-@media (max-width 800px){
-  .contact-inputs{
-    width: 80vw;
-  }
-  .contact-container{
-    width: 80vw;
-  }
 
-}
-@media (prefers-reduced-motion: no-preference) {
-  :root {
-    scroll-behavior: smooth;
-  }
-}
 /* end contact form css */
 body {
   margin: 0;
@@ -256,7 +243,38 @@ h4, .h4 {
     font-size: 1.5rem;
   }
 }
+@media (max-width:1200px){
+  .contact-inputs{
+    width: 80vw;
+     display: flex;
+    justify-content: center;
+    align-items: center;
 
+
+  }
+  .contact-container{
+    width: 70vw;
+    margin-right: 5px !important;
+  }
+  .contact-left{
+    width: 80vw;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-container hr{
+    width: 80vw !important;
+  }
+  .contact-left-title hr{
+    width: 70vw !important;
+    color: black !important;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
 h5, .h5 {
   font-size: 1.25rem;
 }
