@@ -134,9 +134,9 @@
 }
 .contact-left-title hr{
     border: none;
-    width: 500px !important;
+    width: 400px !important;
     height: 5px;
-    background-color: #2d8b22 !important;
+    background-color: #000000 !important;
     border-radius: 10px;
     margin-bottom: 20px;
     place-items: center;
@@ -245,8 +245,8 @@ h4, .h4 {
 }
 @media (max-width:1200px){
   .contact-inputs{
-    width: 80vw;
-     display: flex;
+    width: 70vw;
+    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -257,13 +257,13 @@ h4, .h4 {
     margin-right: 5px !important;
   }
   .contact-left{
-    width: 80vw;
+    width: 70vw;
      display: flex;
     justify-content: center;
     align-items: center;
   }
   .contact-container hr{
-    width: 80vw !important;
+    width: 70vw !important;
   }
   .contact-left-title hr{
     width: 70vw !important;
